@@ -34,9 +34,7 @@ const randomUsersData = users =>{
             <h2>LoginSha256: ${user.login.sha256}</h2>
             <h2>LoginUsername: ${user.login.username}</h2>
             <h2>LoginUuid: ${user.login.uuid}</h2>
-            <h2>UserFirstName: ${user.name.first}</h2>
-            <h2>UserLastName: ${user.name.last}</h2>
-            <h2>UserTitle: ${user.name.title}</h2>
+            <h2>UserFullName: ${user.name.title} ${user.name.first} ${user.name.last}</h2>
             <h2>UserNat: ${user.nat}</h2>
             <h2>UserPhone: ${user.phone}</h2>
             <h2>UserAge: ${user.registered.age}</h2>
