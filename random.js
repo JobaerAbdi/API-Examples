@@ -7,7 +7,6 @@ const randomUsers = () =>{
 const randomUsersData = users =>{
     const dataContainer = document.getElementById('random-data');
     for(const user of users){
-        console.log(user);
         const div = document.createElement('div');
         div.classList.add('dataStyle');
         div.innerHTML = `
